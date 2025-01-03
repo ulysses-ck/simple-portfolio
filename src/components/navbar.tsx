@@ -7,7 +7,7 @@ export default function Navbar() {
       <ul className="flex gap-8">
         {navData.map((item) => (
           <li key={item.id}>
-            <Link href={item.link} className="text-dark-text dark:text-light-text">
+            <Link href={item.link} className="text-dark-content hover:text-dark-text dark:text-light-content dark:hover:text-light-text font-semibold">
               {item.name}
             </Link>
           </li>
