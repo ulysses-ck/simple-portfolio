@@ -16,6 +16,8 @@ export default {
         "dark-content": "#666666",
         "light-text": "#cccccc",
         "dark-text": "#42446e",
+        "purple-custom": "#E70FAA",
+        "light-blue-custom": "#00c0fd",
       },
     },
   },
