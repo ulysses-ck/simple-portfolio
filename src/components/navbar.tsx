@@ -8,11 +8,6 @@ export default function Navbar() {
         <li>Projects</li>
         <li>Contact</li>
       </ul>
-      <div className="flex gap-4">
-        <div>Github</div>
-        <div>Twitter</div>
-        <div>LinkedIn</div>
-      </div>
     </nav>
   );
 }

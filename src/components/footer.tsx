@@ -1,4 +1,5 @@
 import Navbar from "./navbar";
+import SocialIcons from "./social-icons";
 
 export default function Footer() {
   return (
@@ -9,11 +10,7 @@ export default function Footer() {
           <span>+91 1234567890</span>
           <span>info@example.com</span>
         </div>
-        <div>
-          <span>Github</span>
-          <span>Twitter</span>
-          <span>LinkedIn</span>
-        </div>
+        <SocialIcons />
       </div>
       <div>
         <Navbar />
