@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FiExternalLink, FiGithub } from "react-icons/fi";
+import { FiExternalLink } from "react-icons/fi";
+import { FaGithub } from "react-icons/fa";
 
 import { projects } from "../data/projects";
 
@@ -9,7 +10,7 @@ export default function CardProjects() {
     ({ title, description, image, linkPreview, linkGithub, stack }) => (
       <div
         key={title}
-        className="flex flex-col bg-white dark:bg-background rounded-xl overflow-hidden flex-1 w-full max-w-sm transition-transform hover:-translate-y-1"
+        className="flex flex-col bg-white dark:bg-card-bg-custom rounded-xl overflow-hidden flex-1 w-full max-w-sm transition-transform hover:-translate-y-1"
       >
         <div className="relative h-48 w-full">
           <Image
@@ -50,7 +51,7 @@ export default function CardProjects() {
               href={linkGithub}
               className="flex items-center gap-2 text-sm font-medium text-dark-content hover:text-dark-text dark:text-light-content dark:hover:text-light-text"
             >
-              <FiGithub className="w-4 h-4" />
+              <FaGithub className="w-4 h-4" />
               View Code
             </Link>
           </div>

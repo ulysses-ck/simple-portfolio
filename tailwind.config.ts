@@ -18,6 +18,7 @@ export default {
         "dark-text": "#42446e",
         "purple-custom": "#E70FAA",
         "light-blue-custom": "#00c0fd",
+        "card-bg-custom": "#363636",
       },
     },
   },
