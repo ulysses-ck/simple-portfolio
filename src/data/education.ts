@@ -4,5 +4,6 @@ export const education = [
     institution: "Bangalore Institute of Technology",
     startDate: "2015-08-01",
     endDate: "2020-12-01",
+    typeWork: "Full Time",
   },
 ];
