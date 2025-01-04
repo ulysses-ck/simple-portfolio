@@ -29,11 +29,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased px-44`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased px-44 min-h-screen flex flex-col justify-between`}
       >
         <ThemeProvider attribute={"class"} defaultTheme="system" enableSystem>
-        <Header />
-          {children}
+          <Header />
+          <main className="flex-grow">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>
