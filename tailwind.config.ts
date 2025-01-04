@@ -19,6 +19,8 @@ export default {
         "purple-custom": "#E70FAA",
         "light-blue-custom": "#00c0fd",
         "card-bg-custom": "#363636",
+        "button-success": "#d7ffe0",
+        "button-text": "#018c0f",
       },
     },
   },
