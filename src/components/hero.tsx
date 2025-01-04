@@ -9,8 +9,8 @@ export default function Hero() {
   ];
 
   return (
-    <section className="flex items-center py-10 justify-between">
-      <h2 className="text-4xl font-bold flex flex-col w-full">
+    <section className="flex items-center py-10 justify-around w-full">
+      <h2 className="text-4xl font-bold flex flex-col">
         {text.map((item) => (
           <span
             className={`${
