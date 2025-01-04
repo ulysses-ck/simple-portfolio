@@ -33,7 +33,7 @@ export default function RootLayout({
       >
         <ThemeProvider attribute={"class"} defaultTheme="system" enableSystem>
           <Header />
-          <main className="flex-grow">{children}</main>
+          <main className="flex-grow flex">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>
