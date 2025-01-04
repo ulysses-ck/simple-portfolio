@@ -13,8 +13,10 @@ export default function Hero() {
       <h2 className="text-4xl font-bold flex flex-col w-full">
         {text.map((item) => (
           <span
-            className={`text-dark-text dark:text-light-text ${
-              item.id === "pavan" ? "bg-gradient-to-r from-light-blue-custom to-purple-custom text-transparent bg-clip-text" : ""
+            className={`${
+              item.id === "pavan"
+                ? "bg-gradient-to-r from-light-blue-custom to-purple-custom text-transparent bg-clip-text"
+                : "text-dark-text dark:text-light-text"
             }`}
             key={item.id}
           >
@@ -23,13 +25,13 @@ export default function Hero() {
         ))}
       </h2>
       <div className="rounded-full flex items-center justify-center bg-light-content dark:bg-dark-content w-fit h-fit p-4 bg-gradient-to-b from-light-blue-custom to-purple-custom">
-          <Image
-            className="rounded-full"
-            src="https://i.pravatar.cc/500?img=7"
-            alt="Hero"
-            width={350}
-            height={350}
-          />
+        <Image
+          className="rounded-full"
+          src="https://i.pravatar.cc/500?img=7"
+          alt="Hero"
+          width={350}
+          height={350}
+        />
       </div>
     </section>
   );
