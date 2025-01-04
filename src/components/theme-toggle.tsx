@@ -12,7 +12,7 @@ export default function ThemeToggle() {
   };
 
   return (
-    <button type="button" onClick={() => handleThemeChange()} suppressHydrationWarning>
+    <button type="button" onClick={() => handleThemeChange()} suppressHydrationWarning className="text-dark-content dark:text-light-content">
       {theme === "light" ? <FaMoon className="w-6 h-6" /> : <FaSun className="w-6 h-6" />}
     </button>
   );
