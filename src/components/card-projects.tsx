@@ -10,7 +10,7 @@ export default function CardProjects() {
     ({ title, description, image, linkPreview, linkGithub, stack }) => (
       <div
         key={title}
-        className="flex flex-col bg-white dark:bg-card-bg-custom rounded-xl overflow-hidden flex-1 w-full max-w-sm transition-transform hover:-translate-y-1"
+        className="flex flex-col bg-white dark:bg-card-bg-custom rounded-xl overflow-hidden transition-transform hover:-translate-y-1 h-full"
       >
         <div className="relative h-48 w-full">
           <Image
