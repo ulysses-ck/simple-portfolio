@@ -1,3 +1,5 @@
+import TechStack from "@/components/tech-stack";
+
 export default function TechStackPage() {
-    return <h1>TechStackPage</h1>
+    return <TechStack />
 }
