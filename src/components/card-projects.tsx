@@ -23,7 +23,7 @@ export default function CardProjects() {
         </div>
 
         <div className="p-6 flex flex-col gap-4">
-          <h3 className="text-3xl font-semibold text-dark-text dark:text-light-text">
+          <h3 className="text-3xl font-semibold text-black dark:text-light-content">
             {title}
           </h3>
           <p className="text-dark-content dark:text-light-content text-sm">
@@ -31,7 +31,7 @@ export default function CardProjects() {
           </p>
 
           <div className="space-y-2">
-            <p className="text-sm font-medium text-dark-text dark:text-light-text">
+            <p className="text-sm font-medium text-dark-content dark:text-light-content">
               Tech stack:{" "}
               <span className="text-dark-content dark:text-light-content">
                 {stack.join(", ")}
