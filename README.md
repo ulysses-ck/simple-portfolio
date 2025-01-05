@@ -2,6 +2,10 @@
 
 A minimalist developer portfolio website built with Next.js, inspired by [this Figma design](https://www.figma.com/community/file/1116246660507537002/developer-portfolio-design). This project serves as a practice implementation of the design while showcasing modern web development technologies.
 
+# Demo
+![chrome_xw1v6ASMFY](https://github.com/user-attachments/assets/fdf43f32-3cc7-4b3a-8b40-87313b374d54)
+
+
 ## Tech Stack
 
 - **Framework:** [Next.js 15](https://nextjs.org/)
